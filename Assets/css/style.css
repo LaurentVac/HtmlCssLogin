@@ -1,0 +1,128 @@
+html,body{
+    background-color: rgb(231, 216, 216);
+    height: 100%;
+    width: 100%;
+}
+#boxcenter{
+    /*Positionnement en mode absolu*/
+    position: absolute;
+    /* Définir le centre de l'affichage : ici, le centre de Body (= bloc positionné, par défaut) */
+    top: 50%;
+    left: 50%;
+    /* Dimensions du bloc */
+    width: 800px;
+    height: 500px;
+    /* Pour centrer le bloc verticalement et horizontalement */
+    margin-left:-400px; 
+    margin-top:-250px;
+  
+    /*faire les bords arrondi*/
+    border-radius: 20px;
+    display: flex;
+    box-shadow: -10px 10px 10px -1px #666;
+}
+#boxleft{margin-left: 100px;
+    position: relative;
+    height:50px;
+    width: 200px;
+    margin-top: 80px;
+    /*border: 1px solid black;*/
+}
+
+#lowbox {border: 1px solid black;
+    height: 200px;
+    width: 250px;
+    margin-left:80px;
+    margin-top: 20px;
+
+}
+
+#left {
+    float:left; /* Le cadre sort du flux */
+   
+   height:500px;
+   width:400px; 
+   background-color:white;
+   border-radius:20px 0px 0px 20px  ;
+
+}
+#right{
+    float:left; /* ou margin-left:202px;  */
+    height:500px;
+    width:400px; 
+    background-color:rgb(255,66,99);
+    border-radius: 0px 20px 20px 0px;
+}
+.titleleft { font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+}
+.titleright{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 150px;
+}
+h2{ color:white;
+    text-align: center;
+    margin-bottom: 25px ;
+}
+.pright{font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.logofb{ position: absolute;
+    justify-content: space-around;
+    margin-left: 40px;
+    
+    
+}
+.logotw{   position: absolute;
+    justify-content: space-around;
+    margin-left: 120px;
+    
+   
+}
+img{
+    display: flex;
+    height: 50px;
+  
+    position: absolute;
+}
+.plowbox{
+    text-align: center;
+    color: rgb(88, 89, 94);
+
+}
+fieldset{ 
+    border-color: white;
+    padding:0;
+    margin: 10px;
+    border: 0;
+    
+}
+input{
+    border-color: white;
+    height: 40px;
+    background-color: rgb(238,238,238);
+    margin-top: 5px;
+    width: 350px ;
+   
+
+}
+button{font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(238,238,238);
+    height: 30px;
+    width: 100px;
+    margin-left:150px;
+    border-radius: 20px 20px 20px 20px;
+    background-color:rgb(255,75,43);
+    border-color: rgb(238,238,238);
+
+   
+
+}
+
